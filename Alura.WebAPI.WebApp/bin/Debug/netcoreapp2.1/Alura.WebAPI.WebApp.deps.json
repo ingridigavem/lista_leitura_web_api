@@ -33,6 +33,7 @@
           "Alura.WebAPI.Model": "1.0.0",
           "Alura.WebAPI.Seguranca": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.0",
+          "Microsoft.AspNetCore.Mvc.Formatters.Xml": "2.1.0",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.0"
         },
@@ -492,6 +493,7 @@
       "Alura.WebAPI.DAL.Livros/1.0.0": {
         "dependencies": {
           "Alura.WebAPI.Model": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.Formatters.Xml": "2.1.0",
           "Microsoft.EntityFrameworkCore": "2.1.0",
           "Microsoft.EntityFrameworkCore.Relational": "2.1.0"
         },
@@ -506,6 +508,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity": "2.1.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.1.0",
+          "Microsoft.AspNetCore.Mvc.Formatters.Xml": "2.1.0",
           "Microsoft.EntityFrameworkCore.Relational": "2.1.0"
         },
         "runtime": {
@@ -517,7 +520,8 @@
       },
       "Alura.WebAPI.Model/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Http.Features": "2.1.0"
+          "Microsoft.AspNetCore.Http.Features": "2.1.0",
+          "Microsoft.AspNetCore.Mvc.Formatters.Xml": "2.1.0"
         },
         "runtime": {
           "Alura.WebAPI.Model.dll": {}
@@ -528,6 +532,7 @@
       },
       "Alura.WebAPI.Seguranca/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Formatters.Xml": "2.1.0",
           "Microsoft.IdentityModel.Tokens": "5.2.4"
         },
         "runtime": {

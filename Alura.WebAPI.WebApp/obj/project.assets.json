@@ -4622,6 +4622,7 @@
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Alura.WebAPI.Model": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.Formatters.Xml": "2.1.0",
           "Microsoft.EntityFrameworkCore": "2.1.0",
           "Microsoft.EntityFrameworkCore.Relational": "2.1.0"
         },
@@ -4638,6 +4639,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity": "2.1.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.1.0",
+          "Microsoft.AspNetCore.Mvc.Formatters.Xml": "2.1.0",
           "Microsoft.EntityFrameworkCore.Relational": "2.1.0"
         },
         "compile": {
@@ -4651,7 +4653,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "Microsoft.AspNetCore.Http.Features": "2.1.0"
+          "Microsoft.AspNetCore.Http.Features": "2.1.0",
+          "Microsoft.AspNetCore.Mvc.Formatters.Xml": "2.1.0"
         },
         "compile": {
           "bin/placeholder/Alura.WebAPI.Model.dll": {}
@@ -4664,6 +4667,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Formatters.Xml": "2.1.0",
           "Microsoft.IdentityModel.Tokens": "5.2.4"
         },
         "compile": {
@@ -12618,6 +12622,7 @@
       "Alura.WebAPI.Model >= 1.0.0",
       "Alura.WebAPI.Seguranca >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.0",
+      "Microsoft.AspNetCore.Mvc.Formatters.Xml >= 2.1.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.0"
     ]
@@ -12679,6 +12684,10 @@
         "targetAlias": "netcoreapp2.1",
         "dependencies": {
           "Microsoft.AspNetCore.App": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "Microsoft.AspNetCore.Mvc.Formatters.Xml": {
             "target": "Package",
             "version": "[2.1.0, )"
           },
