@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Alura.WebAPI.WebApp.Formatters;
+using Microsoft.IdentityModel.Tokens;
+using System;
 
 namespace Alura.ListaLeitura.WebApp
 {
@@ -47,6 +49,8 @@ namespace Alura.ListaLeitura.WebApp
             services.AddMvc(options => {
                 options.OutputFormatters.Add(new LivroCsvFormatter());
             }).AddXmlSerializerFormatters();
+
+            
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
