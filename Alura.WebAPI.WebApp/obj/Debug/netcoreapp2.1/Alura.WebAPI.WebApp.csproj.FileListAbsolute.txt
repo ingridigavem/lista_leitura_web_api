@@ -6,12 +6,8 @@ C:\Users\ingridi.marques\Documents\GitHub\Alura.WebAPI\Alura.WebAPI.WebApp\bin\D
 C:\Users\ingridi.marques\Documents\GitHub\Alura.WebAPI\Alura.WebAPI.WebApp\bin\Debug\netcoreapp2.1\Alura.WebAPI.WebApp.pdb
 C:\Users\ingridi.marques\Documents\GitHub\Alura.WebAPI\Alura.WebAPI.WebApp\bin\Debug\netcoreapp2.1\Alura.WebAPI.WebApp.Views.dll
 C:\Users\ingridi.marques\Documents\GitHub\Alura.WebAPI\Alura.WebAPI.WebApp\bin\Debug\netcoreapp2.1\Alura.WebAPI.WebApp.Views.pdb
-C:\Users\ingridi.marques\Documents\GitHub\Alura.WebAPI\Alura.WebAPI.WebApp\bin\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.dll
-C:\Users\ingridi.marques\Documents\GitHub\Alura.WebAPI\Alura.WebAPI.WebApp\bin\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Usuarios.dll
 C:\Users\ingridi.marques\Documents\GitHub\Alura.WebAPI\Alura.WebAPI.WebApp\bin\Debug\netcoreapp2.1\Alura.WebAPI.Model.dll
 C:\Users\ingridi.marques\Documents\GitHub\Alura.WebAPI\Alura.WebAPI.WebApp\bin\Debug\netcoreapp2.1\Alura.WebAPI.Seguranca.dll
-C:\Users\ingridi.marques\Documents\GitHub\Alura.WebAPI\Alura.WebAPI.WebApp\bin\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Livros.pdb
-C:\Users\ingridi.marques\Documents\GitHub\Alura.WebAPI\Alura.WebAPI.WebApp\bin\Debug\netcoreapp2.1\Alura.WebAPI.DAL.Usuarios.pdb
 C:\Users\ingridi.marques\Documents\GitHub\Alura.WebAPI\Alura.WebAPI.WebApp\bin\Debug\netcoreapp2.1\Alura.WebAPI.Model.pdb
 C:\Users\ingridi.marques\Documents\GitHub\Alura.WebAPI\Alura.WebAPI.WebApp\bin\Debug\netcoreapp2.1\Alura.WebAPI.Seguranca.pdb
 C:\Users\ingridi.marques\Documents\GitHub\Alura.WebAPI\Alura.WebAPI.WebApp\obj\Debug\netcoreapp2.1\Alura.WebAPI.WebApp.csproj.AssemblyReference.cache

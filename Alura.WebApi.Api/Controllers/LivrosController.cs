@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace Alura.ListaLeitura.Api.Controlers {
-    [Authorize]
+    //[Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class LivrosController : ControllerBase {
@@ -44,7 +44,7 @@ namespace Alura.ListaLeitura.Api.Controlers {
         }
 
         [HttpPost]
-        public IActionResult Incluir([FromBody] LivroUpload model) {
+        public IActionResult Incluir([FromForm] LivroUpload model) {
             if (ModelState.IsValid) {
                 var livro = model.ToLivro();
                 _repo.Incluir(livro);
@@ -57,7 +57,7 @@ namespace Alura.ListaLeitura.Api.Controlers {
         }
 
         [HttpPut]
-        public IActionResult Alterar([FromBody] LivroUpload model) {
+        public IActionResult Alterar([FromForm] LivroUpload model) {
             if (ModelState.IsValid) {
                 var livro = model.ToLivro();
                 if (model.Capa == null) {
